@@ -19,8 +19,8 @@
 2. DVCによるデータのバージョン管理: 以下のコマンドにより、データファイルのバージョン管理を行います。
 
     ``` bash
-    dvc add data_directory/
-    git add data_directory.dvc .gitignore
+    dvc add data/
+    git add data/raw.dvc .gitignore
     git commit -m "Add raw data"
     dvc push -r local
     ```
