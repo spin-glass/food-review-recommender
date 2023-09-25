@@ -1,0 +1,4 @@
+# DVC
+config.local
+tmp/**
+cache/**
